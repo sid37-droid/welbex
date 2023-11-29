@@ -1,0 +1,328 @@
+body{
+    background: rgb(17, 17, 17);
+}
+
+.container{
+    margin:0 auto ;
+    max-width: 1130px;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.header{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+}
+
+.logo-img {
+    max-width: 140px;
+    height: 24px;
+    top: 11px;
+}
+.logo-text {
+    margin-top: 10px;
+    max-width: 165px;
+    color:  #e4e5ea88;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header__nav{
+    max-width: 503px;
+    width: 100%;
+}
+
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 19px;
+    top: 15px;
+    left: 192px;
+    
+}
+
+.nav__item{
+    padding: 0px 10px;
+}
+.nav__item a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E4E5EA;
+
+}
+
+.nav__item:nth-child(2)::after{
+    position: absolute;
+    content:"";
+    background-image: url("../image/svg/red\ ball.svg");
+    top: 60px;
+    width: 98px;
+    height: 98px;
+    -webkit-backdrop-filter: blur(2px);
+    -webkit-drop-shadow:(3px 6px 27px rgba(231, 222, 222, 0.77));
+    z-index: 0;
+}
+.nav__item:nth-child(5)::after{
+    position: absolute;
+    content:"";
+    background-image: url("../image/svg/purple\ ball.svg");
+    top: 30px;
+    width: 98px;
+    height: 98px;
+}
+
+
+.header__contacts {
+    max-width: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-number a{
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+
+main{
+    padding-top: 94px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.main__left::before{
+    position: absolute;
+    content:'""';
+    width: 311px;
+    height: 311px;
+    border-radius: 311px;
+    background: #961A1A;
+    filter: blur(196px);
+    left: -230px;
+    opacity: 0.5;   
+}
+
+
+.title__one{
+    max-width: 362px;
+    width: 100%;
+}
+
+
+.title__one h1{
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title__two h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(to left, #FF3F78  10%, #FCB045 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title__three {
+    margin-top: 30px;
+    max-width: 275px;
+    width: 100%;
+    color:  #E4E5EA;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right__title{
+    max-width: 300px;
+    text-align: right;
+}
+
+.right__title p{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    color: #E4E5EA;
+}
+
+.right__title span{
+    background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.right__grid {
+    margin-top: 10px;
+    color: #E4E5EA;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row__item {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.row__item h2{
+    color: var(--light-text, #E4E5EA);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.row__item p{
+    margin-top: 6px;
+    max-width: 135px;
+    color: #E4E5EA;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right__button{
+    margin-top: 61px;
+    text-align: right;
+}
+
+.right__button button{
+    width: 262px;
+    height: 61px;
+    flex-shrink: 0;
+    background: #4077F3;
+    color:  #E4E5EA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right__button::before{
+    position: absolute;
+    content:"";
+    background-image: url("../image/svg/red\ ball2.svg");
+    background-color:#FF3F78 blur(5px);
+    right: 520px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer__container{
+    margin-top: 69px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex__title {
+    color: var(--dark-gray, #656566);
+    margin-bottom: 20px;
+    /* маленькие заголовки */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.flex__item{
+    margin-bottom: 10px;
+}
+
+.flex__item a{
+    color: #E4E5EA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    max-width: 408px;
+    width: 100%;
+}
+
+.contacts{
+    text-align: right;
+}
+
+.contacts>.flex__item:not(:first-child){
+    margin-top: 20px;
+}
+
+.footer__text{
+    margin-top: 33px;
+}
+
+.footer__text,.footer__text p a{
+    color: var(--light-text, #e4e5eaa6);
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.PrivacyPolicy{
+    text-decoration: underline;
+}
