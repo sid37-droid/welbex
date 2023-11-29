@@ -13,6 +13,7 @@
         background: #000000;
         padding: 0 16px;
         align-items: center;
+        justify-content: center;
     }
 
 
@@ -93,17 +94,20 @@
         text-transform: none;
     }
 
-
     .row__item{
         margin-top: 20px;
-        padding-left: 10px;
+        padding-left: 17px;
     }
 
     .row__item h2{
         position: relative;
         text-align: left;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.65px;
     }
-
 
 
     .row__item h2::before{
@@ -112,7 +116,7 @@
         width: 10px;
         height: 1px;
         left: -14px;
-        top: 10px;
+        top: 6px;
         background: url('../image/svg/Line\ 9.svg');
     }
 
