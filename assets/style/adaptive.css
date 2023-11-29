@@ -43,7 +43,8 @@
         padding-left: 13px;
         padding-right: 39px;
         padding-bottom: 59px;
-        background: url('../image/png/bg.png');
+        background: url('../image/png/bg.png') no-repeat;
+        background-size: cover;
     }
 
     .title__one h1{
